@@ -26,5 +26,7 @@ create table disco (
 
 select * from processador;
 
+update processador
+
 truncate table processador;
 
