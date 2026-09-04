@@ -16,7 +16,7 @@ create table maquina (
     constraint fkMaquinaEmpresa foreign key (fkEmpresa) references empresa(id)
 );
 
-create table registros (
+create table registro (
 	idRegistro int auto_increment,
     fkMaquina int,
     cpuPorcentagemUso decimal (4,1),
@@ -63,12 +63,7 @@ create table funcionario (
 );
 
 SELECT * FROM maquina;
+
 SELECT nome FROM maquina WHERE id = 1;
 
 SELECT * FROM registros;
-
-
-
-
-
-    
